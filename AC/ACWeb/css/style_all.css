@@ -1,0 +1,176 @@
+body {	margin:0 auto;
+	background-color: #FFFFFF;
+	font-size: 12px;
+	line-height: 18px;
+	}
+a{
+	text-decoration: none;
+	}
+#back{	margin: 50px 0 10px 0;
+	}
+.logout{
+	margin:0;
+	padding:0px 0px 0px 0px;
+	text-align: right;
+	height:22px;
+	position:absolute;
+	top:10px;
+	right:20px;
+	}
+.table{
+	margin-left:auto;
+	margin-right:auto;
+	width:10em;
+	}
+
+.table01{
+	background-repeat:repeat-x;
+	font-size:14px;
+	margin:0px 20px 20px 30px;
+	padding:5px 0px 3px 5px;
+	width:96%;
+	}
+
+
+.login{
+	margin:10px 0px 0px 60px;
+	padding:10px 0px 0px 0px;
+	text-align: center;
+	}
+
+
+.header_01{
+	background:url(../images/header_01.gif) no-repeat;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	height:92px;
+	text-indent: -700em
+	}
+
+.header_02{
+	background:url(../images/header_02.gif) repeat-x  0 26px;
+	margin:0;
+	padding:0px 0px 0px 0px;
+	height:92px;
+	position:relative;
+
+	}
+
+.header_03{
+	background:url(../images/header_03.gif) no-repeat right top;
+	margin:0;
+	padding:0;
+	height:65px;
+	width:50px;
+	position:absolute;
+	top:26px;
+	right:0;
+	}
+.title01{
+	background:url(../images/bg-gray.gif);
+	background-repeat:repeat-x;
+	font-size:14px;
+	border-color: #cccccc;
+	border-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	margin:0px 20px 20px 30px;
+	padding:5px 0px 3px 5px;
+	width:96%;
+	}
+
+.title02{
+	font-size:14px;
+	border-color: #cccccc;
+	border-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	margin:0px 0px 20px 0px;
+	padding:5px 0px 3px 5px;
+	width:99%;
+	}
+#menu1 {background:url(../images/_r2_c2.jpg) no-repeat left center;height: 37px;width: 1026px;margin-bottom: 5px;}#menu2 {background:url(../images/mission_menu.jpg) no-repeat left center;height: 37px;width: 1026px;margin: 0 auto;}#menu2 .menuUtility {float: right;margin-top: 6px;margin-right: 10px;}#menu3 {background: url(../images/user_menu.jpg);height: 37px;width: 1026px;margin-bottom: 5px;}#menu3 .menuUtility {float: right;margin-top: 6px;margin-right: 6px;}#menu4 {background: url(../images/jyoukyou_menu.jpg);height: 37px;width: 1026px;margin-bottom: 5px;}#menu4 .menuUtility {float: right;margin-top: 6px;margin-right: 10px;}#menu5 {background: url(../images/uri_menu.jpg);height: 37px;width: 1026px;margin-bottom: 5px;}#menu5 .nendoUtility {float: right;margin-top: 6px;margin-right: 6px;}#menu5 .menuUtility {float: right;margin-top: 6px;margin-right: 6px;}#menu6 {background: url(../images/ctm_menu.jpg);height: 37px;width: 1026px;}#ct {margin-top: 10px;}#menu6 .menuUtility {float: right;margin-top: 6px;margin-right: 6px;}#menu7 {background: url(../images/mtmr_menu.jpg);height: 37px;width: 1026px;margin-bottom:5px;}#menu7 .menuUtility {float: right;margin-top: 6px;margin-right: 6px;}#menu8 {background: url(../images/user.jpg);height: 37px;width: 1026px;margin-bottom: 5px;}#menu9 {background: url(../images/user_update.jpg);height: 37px;width: 1026px;margin-bottom: 5px;}#menu10 {background: url(../images/user_update.jpg);height: 37px;width: 1026px;margin-bottom: 5px;}#menu11 {background: url(../images/hds.jpg);height: 37px;width: 1026px;margin: 0 auto;}#menu11 .menuUtility {float: right;margin-top: 6px;margin-right: 10px;}#menu12{background: url(../images/r20_c6.jpg);height: 37px;width: 1026px;margin: 0 auto;}#menu12 .menuUtility {float: right;margin-top: 6px;margin-right: 10px;}#menu13{background: url(../images/menu_r1_c1.jpg);height: 37px;width: 1026px;margin: 0 auto;}#menu13 .menuUtility {float: right;margin-top: 6px;margin-right: 10px;}#menu14{background: url(../images/menu_r3_c1.jpg);height: 37px;width: 1026px;margin: 0 auto;}#menu14 .menuUtility {float: right;margin-top: 6px;margin-right: 10px;}#menu15{background: url(../images/_r28_c2.jpg);height: 37px;width: 1026px;margin: 0 auto;}#menu15 .menuUtility {float: right;margin-top: 6px;margin-right: 10px;}#menu16 {background: url(../images/shukkin_title.jpg);height: 37px;width: 1026px;margin-bottom: 5px;}#menu16 .menuUtility {float: right;margin-top: 6px;margin-right: 10px;}
+.table3{
+	margin:0px 0px 10px 0px;
+	padding:0px 0px 0px 0px;
+	width:100%;
+	}
+ .table3 table{
+ width:100%;
+ background-color: #cccccc;
+ }
+ .table3 th{
+ background-color:#E0EFFF;
+ padding:5px;
+ }
+ .table3 td{
+ background-color:#FFFFFF;
+ padding:5px;
+ }#bt{	margin:5px auto;	width:250px;	height:38px;}
+#bt .bt_left{	width:111px;	height:38px;	float:left;}
+#bt .bt_right{	width:111px;	height:38px;	float:right;}
+.point{background:url(../images/button_arrow.gif) no-repeat left center;
+	margin:0px 0px 0px 0px;
+	padding:0px 20px 0px 0px;
+	height:15px;
+	text-indent: -700em;
+	}
+h4{
+	color: #002A78;
+	text-align: center;
+	font-size: 16px;
+	font-weight:bold;
+	}
+.calendar_day{
+	color: #002A78;
+	text-align: center;
+	padding:5px;
+	}
+.err_msg{
+	color: #F00000;
+	text-align: left;
+	padding:5px;
+	}#mgr_kakunin{	font-size: 16px;	width: 1026px;	background-color: #FFFFFF;	margin: 0 auto;}
+.kakunin{
+	font-size: 16px;
+	}
+.button_right{
+	text-align: right;
+	margin:20px 0px 20px 0px;
+	padding:0px 0px 0px 0px;
+	width:100%;
+	text-indent: -700em
+	}
+.button_2{
+	text-align: right;
+	margin:3px 20px 0px 0px;
+	padding:0px 0px 0px 0px;
+	width:100%;
+	text-indent: -700em
+	}
+.footer_02{
+	background:url(../images/footer_02.gif) repeat-x;
+	margin:0;
+	padding:0;
+	height:30px;
+	border-left:solid 1px #ccc;
+	}
+.footer_03{
+	background:url(../images/footer_02.gif) no-repeat right center;
+	margin:0;
+	padding:0px 0px 0px 0px;
+	height:30px;
+	border-right:solid 1px #ccc;
+	text-indent: -700em
+	}
+.pager * {
+	padding: 1px 3px;
+	text-decoration: none; color: #999;
+	font-family: 'Verdana', sans-serif;
+}
+.pager strong { cursor: pointer; }
+.pager .selected { background: #abc; color: #fff; }#top {background: url(../images/body_haikei.jpg);height: 9px;}#utility {width:1240px;height: 60px;margin: 0 auto;}#utility .left {float: left;height: 60px;margin-right: 20px;}#utility .left2 {float: left;padding-top: 20px;padding-bottom: 10px;}#utility .right {float: right;padding-top: 20px;padding-bottom: 10px;margin-right: 20px;}#utility .right2 {float: right;padding-top: 20px;padding-bottom: 10px;margin-right:20px;}ul#menu{    list-style:none;    width:100%;}ul#menu li{    list-style:none;    float:left;}ul#menu a{    display:block;    width:170px;    height:50px;    text-indent:-100px;    overflow:hidden;}a.navi1{    background-image:url(../images/r1_c1.jpg);}a:hover.navi1{    background-image:url(../images/r1_c2.jpg);}a.navi2{    background-image:url(../images/r2_c1.jpg);}a:hover.navi2{    background-image:url(../images/r2_c2.jpg);}a.navi3{    background-image:url(../images/r3_c1.jpg);}a:hover.navi3{    background-image:url(../images/r3_c2.jpg);}a.navi4{    background-image:url(../images/r4_c1.jpg);}a:hover.navi4{    background-image:url(../images/r4_c2.jpg);}a.navi5{    background-image:url(../images/r5_c1.jpg);}a:hover.navi5{    background-image:url(../images/r5_c2.jpg);}a.navi6{    background-image:url(../images/r6_c1.jpg);}a:hover.navi6{    background-image:url(../images/r6_c2.jpg);}a.navi7{    background-image:url(../images/r7_c1.jpg);}a:hover.navi7{    background-image:url(../images/r7_c2.jpg);}a.navi8{    background-image:url(../images/r8_c1.jpg);}a:hover.navi8{    background-image:url(../images/r8_c2.jpg);}a.navi9{    background-image:url(../images/r3_c4.jpg);}a:hover.navi9{    background-image:url(../images/r3_c5.jpg);}a.navi9{    background-image:url(../images/r4_c4.jpg);}a:hover.navi9{    background-image:url(../images/r4_c5.jpg);}a.navi10{    background-image:url(../images/r3_c4.jpg);}a:hover.navi10{    background-image:url(../images/r3_c5.jpg);}a.navi11{    background-image:url(../images/r4_c4.jpg);}a:hover.navi11{    background-image:url(../images/r4_c5.jpg);}a.navi12{    background-image:url(../images/botan_r1_c1.jpg);}a:hover.navi12{    background-image:url(../images/botan_r1_c2.jpg);}a.navi13{    background-image:url(../images/shukkin_menu1.jpg);}a:hover.navi13{    background-image:url(../images/shukkin_menu2.jpg);}/* #navi {width:182px;height:302px;background-image: url(../images/gNav.jpg);background-repeat: no-repeat;float: left;}#navi ul {    margin:0;    padding: 0;}#navi li {    list-style-type: none;    margin:0;    padding: 0;}#navi li a {    width: 182px;    height:0pt;    background-image: url(../images/gNav.jpg);    background-repeat: no-repeat;    display:block;    padding-top:43px;    overflow:hidden;}#navi li#navi1 a {    background-image:url(../img/ƒ _r1_c1.jpg);}#navi li#navi2 a {    background-position: 182px 0px;}#navi li#navi3 a {    background-position: 364px 0px;}#navi li#navi4 a {    background-position: 546px 0px;}#navi li#navi5 a {    background-position: 728px 0px;}#navi li#navi6 a {    background-position: 910px 0px;}#navi li#navi7 a {    background-position: 1092px 0px;}#navi li#navi1 a:hover {    background-image:url(../img/ƒ _r1_c1.jpg);}#navi li#navi2 a:hover {    background-position: -182px -43px;}#navi li#navi3 a:hover {    background-position: -182px -86px;}#navi li#navi4 a:hover {    background-position: -182px -129px;}#navi li#navi5 a:hover {    background-position: -182px -172px;}#navi li#navi6 a:hover {    background-position: -182px -215px;}#navi li#navi7 a:hover {    background-position: -182px -258px;}#ctm_navi {width:182px;height:120px;background-image: url(../images/ctm_gNav.jpg);background-repeat: no-repeat;float: left;}#ctm_navi ul {    margin:0;    padding: 0;}#ctm_navi li {    list-style-type: none;    margin:0;    padding: 0;}#ctm_navi li a {    width: 182px;    height:0pt;    background-image: url(../images/ctm_gNav.jpg);    background-repeat: no-repeat;    display:block;    padding-top:40px;    overflow:hidden;}#ctm_navi li#navi1 a {    background-position: 0px 0px;}#ctm_navi li#navi2 a {    background-position: 182px 0px;}#ctm_navi li#navi3 a {    background-position: 364px 0px;}#ctm_navi li#navi1 a:hover {    background-position: -182px 0px;}#ctm_navi li#navi2 a:hover {    background-position: -182px -40px;}#ctm_navi li#navi3 a:hover {    background-position: -182px -80px;} */#menu { float: right; }#myButton {margin-right: auto;margin-left: auto;width: 140px;margin-top: 20px;}#myButton a {display: block;overflow: hidden;height: 0px;width: 140px;background-image: url(../images/log.jpg);text-align: center;padding-top: 60px;}#myButton a:hover {    background-position: 0 -60px;}#fooder {background: url(../images/fooder_haikei.jpg);height: 150px;margin: 20px 0 0 0;}#ct1 {margin-top: 10px;border-top: 2px solid #333;background: #eaeae0;height: 23px;padding-top: 7px;padding-left: 10px;float: left;width: 200px;}#ct2 {margin-top: 10px;border-top: 2px solid #333;height: 23px;padding-top: 7px;padding-left: 10px;float: left;margin-left: 1px;width: 500px;}#ctmg1 {margin-top: 10px;border-top: 2px solid #333;height: 23px;padding-top: 7px;padding-left: 10px;float: left;margin-left: 1px;width: 280px;color: red;}#ct3 {border-top: 1px solid #FFF;background: #eaeae0;height: 23px;padding-top: 7px;padding-left: 10px;float: left;width: 200px;}#ct4 {border-top: 1px solid #CCC;height: 23px;padding-top: 7px;padding-left: 10px;float: left;margin-left: 1px;width: 500px;}#ctmg2 {border-top: 1px solid #CCC;height: 23px;padding-top: 7px;padding-left: 10px;float: left;margin-left: 1px;color: red;width: 280px;}#kt {width: 220px;margin-top: 20px;float: right;margin-right: 403px;}#kt1 { float: left; }#kt2 {float: left;margin-left: 20px;}#con {float: right;width: 1024px;border-right: 1px solid #CCC;border-bottom: 1px solid #CCC;border-left: 1px solid #CCC;}#con .con1 {float: right;width: 83px;border-left: 1px solid #CCC;text-align: center;margin:0px auto;}#con .con2 {width: 83px;border-left: 1px solid #CCC;float: right;text-align: center;}#con .con3 {float: right;width: 84px;text-align: center;border-left: 1px solid #CCC;}#con .con4 {float: right;width: 334px;border-bottom: 1px solid #CCC;border-left: 1px solid #CCC;}#con .con5 {float: right;width: 335px;border-left: 1px solid #CCC;border-bottom: 1px solid #CCC;}#con .con6 {float: right;width: 100px;border-bottom: 1px solid #CCC;}#con .con7 {width: 167px;float: right;}#con .con8 {width: 166px;float: right;border-right: 1px solid #CCC;border-left: 1px solid #CCC;}#con .con9 {width: 167px;float: right;}#con .con10 {width: 167px;float: right;border-right: 1px solid #CCC;border-left: 1px solid #CCC;}#mgr_table{width: 1026px;margin-top: 5px;background-color: #2DADEA;}#mgr_table tr th{	border-top:1px solid #FFFFFF;	border-left:1px solid #FFFFFF;}#mgr_table tr td{	background-color: #FFFFFF;	border-bottom:1px solid #CCCCCC;	border-left:1px solid #CCCCCC;}#mgr_table tr td.right_line{	border-right:1px solid #CCCCCC;}#dl_table{width: 795px;margin:5px auto;background-color: #2DADEA;}#dl_table tr th{	border-top:1px solid #FFFFFF;	border-left:1px solid #FFFFFF;}#dl_table tr td{	background-color: #FFFFFF;	border-bottom:1px solid #CCCCCC;	border-left:1px solid #CCCCCC;}#dl_table tr td.right_line{	border-right:1px solid #CCCCCC;}#pagedtable{width: 1022px;margin-top: 5px;}#pagedtable tr th{	border-top:1px solid #FFFFFF;	border-left:1px solid #FFFFFF;}#pagedtable tr td{	border-bottom:1px solid #CCCCCC;	border-left:1px solid #CCCCCC;}#pagedtable tr td.right_line{	border-right:1px solid #CCCCCC;}#navi_2 {width:182px;height:120px;background-image: url(../images/gNav2.jpg);background-repeat: no-repeat;float: left;}#navi_2 ul {    margin:0;    padding: 0;}#navi_2 li {    list-style-type: none;    margin:0;    padding: 0;}#navi_2 li a {    width: 182px;    height:0pt;    background-image: url(../images/gNav2.jpg);    background-repeat: no-repeat;    display:block;    padding-top:43px;    overflow:hidden;}#navi_2 li#navi21 a {    background-position: 0px 0px;}#navi_2 li#navi22 a {    background-position: 182px 0px;}#navi_2 li#navi23 a {    background-position: 364px 0px;}#navi_2 li#navi21 a:hover {    background-position: -182px 0px;}#navi_2 li#navi22 a:hover {    background-position: -182px -38px;}#navi_2 li#navi23 a:hover {    background-position: -182px -86px;}

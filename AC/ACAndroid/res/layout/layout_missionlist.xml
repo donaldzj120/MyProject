@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal" 
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="325px"
+            android:layout_height="wrap_content"
+            android:text="配車情報｜Deliver request" android:textSize="18px"/>
+
+        <Button
+            android:id="@+id/btn_show1"
+            android:layout_width="90px"
+            android:layout_height="wrap_content"
+            android:text="手配中" android:onClick="btn_show1_click"/>
+
+        <Button
+            android:id="@+id/btn_show2"
+            android:layout_width="90px"
+            android:layout_height="wrap_content"
+            android:text="配送完了" android:onClick="btn_show2_click"/>
+
+        <Button
+            android:id="@+id/btn_show_all"
+            android:layout_width="90px"
+            android:layout_height="wrap_content"
+            android:text="全て表示" android:onClick="btn_show3_click"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" android:padding="2px">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="48px"
+            android:layout_height="match_parent"
+            android:gravity="center" android:textColor="@color/backColor" android:background="@color/backColor"/>
+
+        <TextView
+            android:id="@+id/txv_"
+            android:layout_width="160px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_level2_backcolor"
+            android:gravity="left"
+            android:text="伝票ID" android:textSize="22px" android:textColor="@color/color_white"/>
+
+        <TextView
+            android:id="@+id/txv_hashajikan"
+            android:layout_width="160px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="配車時間"
+            android:background="@drawable/border_level2_backcolor" android:textSize="16px" android:textColor="@color/color_white"/>
+
+        <TextView
+            android:id="@+id/txv_kanryoujikan"
+            android:layout_width="160px"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="完了時間"
+            android:background="@drawable/border_level2_backcolor" android:textSize="16px" android:textColor="@color/color_white"/>
+
+        <Button
+            android:id="@+id/btn_conform"
+            android:layout_width="60px"
+            android:layout_height="match_parent"
+            android:background="@color/backColor"
+            android:textSize="20px" android:layout_marginLeft="5px" android:textColor="@color/color_white"/>
+    </LinearLayout>
+
+                    <ListView
+                        android:id="@+id/lsv_missions"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+                    </ListView>
+        
+</LinearLayout>

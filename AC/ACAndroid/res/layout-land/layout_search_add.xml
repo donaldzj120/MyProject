@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="575sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.72"
+            android:text="配車情報｜Deliver request"
+            android:textSize="25sp" />
+
+        <android.widget.LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.72"
+            android:orientation="vertical" />
+
+        <android.widget.LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.72" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2sp" >
+
+		<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="187dp"
+		    android:layout_height="wrap_content"
+		    android:text="住所"
+		    android:textSize="25sp" />
+		<EditText
+            android:id="@+id/editJyusho"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10" />
+    </LinearLayout>
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2sp" >
+
+		<TextView
+		    android:id="@+id/textView2"
+		    android:layout_width="187dp"
+		    android:layout_height="wrap_content"
+		    android:text="備考"
+		    android:textSize="25sp" />
+
+		<EditText
+		    android:id="@+id/editBikou"
+		    android:layout_width="wrap_content"
+		    android:layout_height="283dp"
+		    android:layout_weight="0.28"
+		    android:ems="10"
+		    android:inputType="textMultiLine" >
+
+		    <requestFocus />
+		</EditText>
+
+    </LinearLayout>
+    	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2sp" >
+		
+		<Button
+            android:id="@+id/btn_kakutei"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280sp"
+            android:text="登録" />
+        
+       <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100sp"
+            android:text="戻る" />
+    </LinearLayout>
+</LinearLayout>

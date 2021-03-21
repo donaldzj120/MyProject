@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="1000dp"
+  android:layout_height="800dp">
+
+    <LinearLayout
+        android:id="@+id/ll_sign"
+        android:layout_width="577dp"
+        android:layout_height="500dp"
+        android:background="@drawable/border_level2"
+        android:orientation="vertical" >
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="576dp"
+        android:layout_height="60sp"
+        android:layout_marginTop="10sp" >
+
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_width="wrap_content" android:layout_weight="0.33" android:orientation="vertical" android:gravity="center_horizontal" android:layout_height="fill_parent">
+        	<Button android:text="保存" android:id="@+id/btn_save" android:layout_height="wrap_content" android:layout_width="120sp" android:onClick="btn_save_Handler"></Button>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/linearLayout3" android:layout_width="wrap_content" android:layout_weight="0.34" android:orientation="vertical" android:gravity="center_horizontal" android:layout_height="fill_parent">
+        	<Button android:text="クリア" android:id="@+id/btn_clear" android:layout_height="wrap_content" android:layout_width="120sp" android:onClick="btn_clear_Handler"></Button>
+        </LinearLayout>        
+        <LinearLayout android:id="@+id/linearLayout4" android:layout_width="wrap_content" android:layout_weight="0.33" android:orientation="vertical" android:gravity="center_horizontal" android:layout_height="fill_parent">
+        	<Button android:text="キャンセル" android:id="@+id/btn_cancle" android:layout_height="wrap_content" android:layout_width="120sp" android:onClick="btn_cancle_Handler"></Button>
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

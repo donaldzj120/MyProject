@@ -1,0 +1,3 @@
+[29-Dec-2014 03:44:01] PHP Parse error:  syntax error, unexpected '}' in /home/te21130/public_html/test/system/application/controllers/PDAUploadFile.php on line 28
+[03-Jan-2015 02:05:02] PHP Fatal error:  Call to a member function initialize() on a non-object in /home/te21130/public_html/test/system/application/controllers/PDAUploadFile.php on line 20
+[03-Jan-2015 02:05:51] PHP Fatal error:  Call to a member function initialize() on a non-object in /home/te21130/public_html/test/system/application/controllers/PDAUploadFile.php on line 20
