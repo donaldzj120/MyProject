@@ -1,0 +1,11 @@
+ftp
+host:ac-system.co.jp
+user:ac@ac-system.co.jp
+pass:ac#Itas!System
+
+DB
+https://phpmyadmin-sv8108.xserver.jp/?
+webcrest_ac1
+webcrest_acdu
+aC.System
+
